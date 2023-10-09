@@ -349,8 +349,7 @@ function buildImage() {
   opts+=('--label')
   opts+=("org.${ONTPUB_ORG}.ontology-publisher.release-date="$(date "+%Y-%m-%d")"")
   opts+=('--tag')
-  # opts+=("edmcouncil/${containerName}:${ONTPUB_VERSION}")
-  opts+=("oliveh/${containerName}:${ONTPUB_VERSION}")
+  opts+=("edmcouncil/${containerName}:${ONTPUB_VERSION}")
   opts+=('--file')
   opts+=("$(dockerFile) .")
 
