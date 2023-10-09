@@ -6,7 +6,7 @@
 #
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)" || exit 1
 
-export ONTPUB_ORG="edmcouncil"
+export ONTPUB_ORG="oliveh"
 
 export ONTPUB_FAMILY="${ONTPUB_FAMILY:-fibo}"
 export HYGIENE_TEST_PARAMETER_VALUE="${HYGIENE_TEST_PARAMETER_VALUE:-edmcouncil}"
